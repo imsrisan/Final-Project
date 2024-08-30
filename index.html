@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sideBar">
+        <div class="logoAndMenuBar">
+          <div id="logo">
+            <span id="pick">Pick</span>
+            <span>Your</span>
+            <span id="cloth">Cloth</span>
+          </div>
+
+          <nav id="menuC">
+            <label for="check" class="checkBtn">
+              <i class="fa fa-bars"></i>
+              <div class="menu">
+                <a href="#">DashBoard</a>
+                <a href="#">Order</a>
+                <a href="#">Satistic</a>
+                <a href="#">Product</a>
+                <a href="#">Stock</a>
+                <a href="#">Offer</a>
+              </div>
+            </label>
+          </nav>            
+          <div id="menuBar">
+            <div>
+              <img src="dashboard-svgrepo-com (1).svg" alt="" />
+              <a href="#blank">Dashboard</a></li>
+            </div>
+            <div>
+              <img src="cart-large-minimalistic-svgrepo-com.svg" alt="" />
+              <a href="#blank">Orders</a>
+            </div>
+            <div>
+              <img
+                src="statistics-circle-chart-graph-stats-analytics-svgrepo-com.svg"
+                alt=""
+              />
+              <a href="#blank">Statistic</a>
+            </div>
+            <div>
+              <img src="ad-product-svgrepo-com.svg" alt="" />
+              <a href="#blank">Product</a>
+            </div>
+            <div>
+              <img src="bar-chart-v-svgrepo-com (1).svg" alt="" />
+              <a href="#blank">Stock</a>
+            </div>
+            <div>
+              <img src="tag-line-svgrepo-com.svg" alt="" />
+              <a href="#blank">Offer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mainContent">
+        <div class="content">
+          <div class="topBar">
+            <div class="details">
+              <p id="order">Orders</p>
+              <div id="totalOrder">
+                <div>Pickup 1</div>
+                <div id="time">
+                  24 Orders - 9:05am
+                </div>
+              </div>
+            </div>
+            <div id="profile">
+              <div id="profileInfo">
+                <div id="in">
+                  <input
+                    type="text"
+                    placeholder="Search in Knock N'Door"
+                    size="50"
+                  />
+                </div>
+                <div id="bell"> <i class="bell fa fa-bell-o"></i></div>
+                <div id="profilePhoto">
+                    <div class="original-photo"><img
+                        src="man-profile-cartoon-smiling-vector-illustration-graphic-design-135443492.webp"
+                        id="photo"
+                        alt="Profile Photo"
+                    /></div>
+                    <div class="profileMenu"><i class="fa fa-caret-down"><div class="pop-out"><div><img class="imgP"
+                      src="man-profile-cartoon-smiling-vector-illustration-graphic-design-135443492.webp"
+                      id="photo"
+                      alt="Profile Photo"
+                  /></div> <div>LOG IN</div>
+                  <div style="color: red;">LOG OUT</div>
+                </div>
+                </i>
+              </div>
+                    
+                </div>
+              </div>
+              
+              <div id="pickup">
+                <button  aria-haspopup="true" aria-expanded="false">Pick Up<i class="fa fa-caret-down" style= " padding: 5px; cursor: pointer;"></i><div class="Pickups">
+                  <a href="#">Pick up 1</a>
+                  <a href="#">Pick up 1</a>
+                  <a href="#">Pick up 1</a>
+                  <a href="#">Pick up 1</a>
+                </div></button>
+              </div>
+            </div>
+          </div>
+          <div class="mainSection">
+            <div class="orderDetails">
+              <div id="head">
+                
+                <section class="details">
+                    <table>
+                        <tbody>
+                            <td >#2539</td>
+                            <td id="customer" style="padding-left: 10px; padding-right: 10px;">Jordan Smith</td>
+                            <td>31st July 2020</td> 
+                            <td  id="price" style="padding-right: 10px; margin-right: 10px;">&euro;46.00</td>
+                            <td id="status"><p id="Completed">Completed</p></td>
+                        </tbody>
+                    </table>
+                    <div class="detailMenu" id="settings">
+                        <div><i class="fa fa-gear"></i></div>
+                        <div><i class="fa fa-caret-down"></i></div>
+                    </div>
+                  
+                </section>
+              </div>
+              <div id="main">
+                <section class="tableDetail-top">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th class="tableHead">Order Id</th>
+                        <th class="tableHead">Customer</th>
+                        <th class="tableHead">Date</th>
+                        <th class="tableHead">Price</th>
+                        <th class="tableHead">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>#2540</td>
+                        <td class="customer">Rowena Rice</td>
+                        <td>31st July 2020</td>
+                        <td class="price">&euro;62.00</td>
+                        <td><p id="pending">Pending</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div id="sideMenu">
+                    <div id="action">
+                      <div>Action</div>
+                      <i class="fa fa-gear"></i>
+                    </div>
+                    <div id="caret-up"><i class="fa fa-caret-up"></i></div>
+                  </div>
+                </section>
+                <p class="table_header">Orders Detail</p>
+                <section class="main_table">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Sn</th>
+                        <th class="ProductName">Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="tableDetail">
+                        <td>1.</td>
+                        <td class="ProductName">Cheese Stack</td>
+                        <td>1 pic</td>
+                        <td>&euro;2.00</td>
+                        <td>&euro;2.00</td>
+                      </tr>
+                      <tr class="tableDetail">
+                        <td>2.</td>
+                        <td class="ProductName">Greek Style Salad</td>
+                        <td>2 pic</td>
+                        <td>&euro;4.00</td>
+                        <td>&euro;8.00</td>
+                      </tr>
+                      <tr class="tableDetail">
+                        <td>3.</td>
+                        <td class="ProductName">
+                          30 Chicken Salad & Peanut Dip
+                        </td>
+                        <td>3 pic</td>
+                        <td>&euro;11.00</td>
+                        <td>&euro;33.00</td>
+                      </tr>
+                      <tr class="tableDetail">
+                        <td>4.</td>
+                        <td class="ProductName">Wrap Platter</td>
+                        <td>1 pic</td>
+                        <td>&euro;15.00</td>
+                        <td>&euro;15.00</td>
+                      </tr>
+                      <tr class="tableDetail">
+                        <td>5.</td>
+                        <td class="ProductName">Moroccan style couscous</td>
+                        <td>2 pic</td>
+                        <td>&euro;3.00</td>
+                        <td>&euro;6.00</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td class="ProductName">Total Price</td>
+                        <td></td>
+                        <td></td>
+                        <td>&euro;62.00</td>
+                      </tr>
+                      <tr class="orderConfirmation">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="button1">
+                          <button id="one">Cancel order</button>
+                        </td>
+                        <td><button id="two">Accept for pickup</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </div>
+              <div id="foot"><section class="details">
+                <table>
+                    <tbody>
+                        <td >#2541</td>
+                        <td id="customer">Harrison Saratt</td>
+                        <td>31st July 2020</td>
+                        <td  id="price">&euro;116.00</td>
+                        <td id="status"><p id="pending">Pending</p></td>
+                    </tbody>
+                </table>
+                <div class="detailMenu" id="settings">
+                    <div><i class="fa fa-gear"></i></div>
+                    <div><i class="fa fa-caret-down"></i></div>
+                </div>
+              
+            </section></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body
