@@ -486,14 +486,17 @@ input[type="text"]{
 }
 
 #pending{
-    background-color: lightblue;
+    margin:0;
+    background-color: rgb(192, 232, 248);
     text-align: center;
-    width: 70px;
+    width: 80px;
     border-radius: 20px;
     padding: 5px;
     font-size: 13px;
-    color: rgb(12, 170, 223);
-    margin: 0;
+    color: rgb(29, 116, 150);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 2px;
     
 }
 
@@ -791,7 +794,7 @@ input[type="text"]{
         width: 50px;
         border-radius: 20px;
         padding: 5px;
-        font-size: 10px;
+        font-size: 8px;
         color: rgb(12, 170, 223);
         margin: 0;
         
@@ -867,6 +870,28 @@ input[type="text"]{
     border-top: 0.3px solid #9c9696;
 
 }
+
+.tableDetail-top{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.tableDetail-top table{
+    width: 100%;
+    border-right: 0;
+    /* padding: 5px; */
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#sideMenu{
+    display: flex;
+   
+    /* justify-content: flex-start; */
+    padding: 5px;
+    font-size: 13px;
+    
+}
   
 }
 
@@ -893,6 +918,28 @@ input[type="text"]{
         border-radius: 20px;
     }
 
+    /* .container{
+        display: grid;
+        grid-template-columns: minmax(100px, 200px) auto;
+        grid-template-areas: "sidebar"
+        "maincontent";  
+    
+    } */
+
+
+    #sideMenu{
+        margin: 0;
+    }
+
+
+            
+
+.tableDetail-top{
+    /* display: flex; */
+
+}
+
+
 }
 
 @media screen and (max-width: 713px){
@@ -912,7 +959,17 @@ input[type="text"]{
         height: 630px;
         border-radius: 20px;
     }
+}
 
+@media screen and (max-width: 760px){
+    .tableDetail-top table{
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .tableDetail-top td{
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 557px){
@@ -935,7 +992,7 @@ input[type="text"]{
 
 }
 
-@media screen and (max-width: 555px){
+@media screen and (max-width: 600px){
     .orderDetails{
         display: grid;
         grid-template-rows: 40px 430px 40px;
@@ -1002,8 +1059,8 @@ input[type="text"]{
         height: auto; 
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
-        display: flex;
-        justify-content: flex-end;
+        /* display: flex;
+        justify-content: ; */
     }
     
         .container .mainContent {
@@ -1021,6 +1078,7 @@ input[type="text"]{
             padding: 10px;
             display: flex;
             flex-direction: row;
+            /* justify-content: flex-start; */
             justify-content: center;
             align-items: center;
         }
@@ -1031,7 +1089,7 @@ input[type="text"]{
 
 
         .checkBtn {
-            display: none;
+            
             color: #333;
             text-align: center;
             cursor: pointer; 
@@ -1039,7 +1097,8 @@ input[type="text"]{
             display: block; 
             cursor: pointer; 
             /* float: right; */
-            padding-right: 50px;      
+            
+            padding-right: 30px;      
         }
         
         #check{
@@ -1057,10 +1116,21 @@ input[type="text"]{
             float: left;
         }
 
+        .tableDetail-top table{
+            align-items: center;
+            font-size: 10px;
+        }
+
+        .tableDetail-top td{
+            padding-right: 10px;
+        }
+
         #menuC {
             
             position: relative;
             margin-right: 50px;
+            float: right;
+            
             
         }
         
@@ -1112,11 +1182,21 @@ input[type="text"]{
         #menuC .checkBtn:hover i {
             display: none;
         }
-        
-        
-      
-} 
 
+
+                
+        #sideMenu{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            padding: 5px;
+            font-size: 13px;
+            margin: 0;
+            
+        }
+
+
+    }
 
 
 
