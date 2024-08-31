@@ -124,8 +124,38 @@
           <div class="mainSection">
             <div class="orderDetails">
               <div id="head">
+
+                <section class="tableDetail-top">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th class="tableHead" style="font-weight:normal">#2539</th>
+                        <th class="tableHead" style="font-weight:normal">Jordan Smith</th>
+                        <th class="tableHead"style="font-weight:normal">31st July 2020</th>
+                        <th class="tableHead"style="font-weight:normal">&euro;46.00</th>
+                        <th class="tableHead"style="font-weight:normal" id="Completed">Completed</th>
+                      </tr>
+                    </thead>
+                    <tbody style="visibility: hidden;">
+                      <tr class="hidden">
+                        <td>#2540</td>
+                        <td class="customer">Rowena Rice</td>
+                        <td>31st July 2020</td>
+                        <td class="price">&euro;62.00</td>
+                        <td><p id="pending">Pending</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div id="sideMenu">
+                    <div id="action">
+                      <i class="fa fa-gear"></i>
+                      <div>Action</div>
+                    </div>
+                    <div id="caret-up"><i class="fa fa-caret-up"></i></div>
+                  </div>
+                </section>
                 
-                <section class="details">
+                <!-- <section class="details">
                     <table>
                         <tbody>
                             <td >#2539</td>
@@ -140,13 +170,13 @@
                         <div><i class="fa fa-caret-down"></i></div>
                     </div>
                   
-                </section>
+                </section> -->
               </div>
               <div id="main">
                 <section class="tableDetail-top">
                   <table>
                     <thead>
-                      <tr  class="visible">
+                      <tr>
                         <th class="tableHead">Order Id</th>
                         <th class="tableHead">Customer</th>
                         <th class="tableHead">Date</th>
@@ -244,22 +274,35 @@
               </div>
               <div id="foot">
     
-                <section class="details">
+                <section class="tableDetail-top">
                   <table>
-                      <tbody>
-                          <td >#2541</td>
-                          <td id="customer" style="padding-left: 10px; padding-right: 10px;">Harrison Saratt</td>
-                          <td>31st July 2020</td> 
-                          <td  id="price" style="padding-right: 10px; margin-right: 10px;">&euro;116.00</td>
-                          <td id="status"><p id="pending">Pending</p></td>
-                      </tbody>
+                    <thead>
+                      <tr>
+                        <th class="tableHead" style="font-weight:normal">#2541</th>
+                        <th class="tableHead" style="font-weight:normal">Harrison Saratt</th>
+                        <th class="tableHead"style="font-weight:normal">31st July 2020</th>
+                        <th class="tableHead"style="font-weight:normal">&euro;116.00</th>
+                        <th class="tableHead"style="font-weight:normal" id="pending">Pending</th>
+                      </tr>
+                    </thead>
+                    <tbody style="visibility: hidden;">
+                      <tr class="hidden">
+                        <td>#2540</td>
+                        <td class="customer">Rowena Rice</td>
+                        <td>31st July 2020</td>
+                        <td class="price">&euro;62.00</td>
+                        <td><p id="pending">Pending</p></td>
+                      </tr>
+                    </tbody>
                   </table>
-                  <div class="detailMenu" id="settings">
-                      <div><i class="fa fa-gear"></i></div>
-                      <div><i class="fa fa-caret-down"></i></div>
+                  <div id="sideMenu">
+                    <div id="action">
+                      <i class="fa fa-gear"></i>
+                      <div style="visibility: hidden;">Action</div>
+                    </div>
+                    <div id="caret-up"><i class="fa fa-caret-up"></i></div>
                   </div>
-                
-              </section>
+                </section>
               
             </section>
           </div>
