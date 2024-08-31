@@ -931,15 +931,6 @@ input[type="text"]{
         margin: 0;
     }
 
-
-            
-
-.tableDetail-top{
-    /* display: flex; */
-
-}
-
-
 }
 
 @media screen and (max-width: 713px){
@@ -1085,6 +1076,10 @@ input[type="text"]{
     
         .logoAndMenuBar #menuBar div {
             display: none;
+        }
+
+        .details #pi{
+            font-size: 12px;
         }
 
 
