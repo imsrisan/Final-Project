@@ -14,7 +14,45 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
   </head>
   <body>
     <div class="container">
@@ -27,37 +65,35 @@
           </div>
            
           <div id="menuBar">
-            <div>
-              <img src="dashboard-svgrepo-com (1).svg" alt="" />
-              <a href="#blank">Dashboard</a></li>
-            </div>
-            <div>
-              <img src="cart-large-minimalistic-svgrepo-com.svg" alt="" />
-              <a href="#blank">Orders</a>
-            </div>
-            <div>
-              <img
-                src="statistics-circle-chart-graph-stats-analytics-svgrepo-com.svg"
-                alt=""
-              />
-              <a href="#blank">Statistic</a>
-            </div>
-            <div>
-              <img src="ad-product-svgrepo-com.svg" alt="" />
-              <a href="#blank">Product</a>
-            </div>
-            <div>
-              <img src="bar-chart-v-svgrepo-com (1).svg" alt="" />
-              <a href="#blank">Stock</a>
-            </div>
-            <div>
-              <img src="tag-line-svgrepo-com.svg" alt="" />
-              <a href="#blank">Offer</a>
-            </div>
+            <div class="navbar">
+                <div id="bars">
+                  <i class="fas fa-tachometer-alt"></i>
+                  <div>DashBoard</div>
+                </div>
+                <div id="bars">
+                  <i class="fa fa-shopping-cart"></i>
+                  <div>Orders</div>
+                </div>
+                <div id="bars">
+                  <i class="fa fa-pie-chart"></i>
+                  <div>Statistic</div>
+                </div>
+                <div id="bars">
+                  <i class="fas fa-box"></i>
+                  <div>Product</div>
+                </div>
+                <div id="bars">
+                  <i class="fa fa-cubes"></i>
+                  <div>Stock</div>
+                </div>
+                <div id="bars">
+                  <i class="fa fa-tag"></i>
+                  <div>Offer</div>
+                </div>
+              </div>
           </div>
           <nav id="menuC">
             <label for="check" class="checkBtn">
-              <i class="fa fa-bars"></i>
               <div class="menu">
                 <a href="#">DashBoard</a>
                 <a href="#">Order</a>
@@ -66,6 +102,7 @@
                 <a href="#">Stock</a>
                 <a href="#">Offer</a>
               </div>
+              <i class="fa fa-bars"></i>
             </label>
           </nav> 
         </div>
@@ -91,7 +128,7 @@
                     size="50"
                   />
                 </div>
-                <div id="bell"> <i class="bell fa fa-bell-o"></i></div>
+                <div id="bell"> <i class="bell fa fa-bell-o"><div class="dot"></div></i></div>
                 <div id="profilePhoto">
                     <div class="original-photo"><img
                         src="man-profile-cartoon-smiling-vector-illustration-graphic-design-135443492.webp"
@@ -122,173 +159,143 @@
             </div>
           </div>
           <div class="mainSection">
-            <div class="orderDetails">
-              <div id="head">
-                <section class="tableDetail-top">
-                  <table>
-                    <thead>
-                      <tr id="toptable">
-                        <th class="tableHead" style="font-weight:normal" id="orId">#2539</th>
-                        <th id="nameT" class="tableHead" style="font-weight:normal;" >Jordan Smith</th>
-                        <th class="tableHead"style="font-weight:normal" id="tDa">31st July 2020</th>
-                        <th class="tableHead"style="font-weight:normal" id="eu">&euro;46.00</th>
-                        <th style="font-weight:normal" id="Completed">Completed</th>
+            <section class="main-section-v2">
+              <div id="one">
+                  <table class="same-table">
+                      <tr>
+                          <td>#2539</td>
+                          <td>Jordan Smith</td>
+                          <td>31 July 2020</td>
+                          <td>&euro;46.00</td>
+                          <td id="completed"><p>Completed</p></td>
                       </tr>
-                    </thead>
-                    <tbody style="visibility: hidden;">
-                      <tr class="hidden">
-                        <td>#2540</td>
-                        <td class="customer">Rowena Rice</td>
-                        <td>31st July 2020</td>
-                        <td class="price">&euro;62.00</td>
-                        <td><p id="pending">Pending</p></td>
-                      </tr>
-                    </tbody>
                   </table>
-                  <div id="sideMenu">
-                    <div id="action">
-                      <i class="fa fa-gear"></i>
-                      <div>Action</div>
-                    </div>
-                    <div id="caret-up"><i class="fa fa-caret-up"></i></div>
+                  <div id="same-icon">
+                      <div><i class="fa fa-gear"></i></div>
+                      <div><i class="fa fa-caret-down"></i></div>
                   </div>
-                </section>
               </div>
-              <div id="main">
-                <section class="tableDetail-top">
-                  <table>
-                    <thead>
+      
+              <div id="two">
+                  <table class="same-table">
                       <tr>
-                        <th class="tableHead">Order Id</th>
-                        <th class="tableHead">Customer</th>
-                        <th class="tableHead">Date</th>
-                        <th class="tableHead">Price</th>
-                        <th class="tableHead">Status</th>
+                          <th>Order Id</th>
+                          <th>Customer</th>
+                          <th>Date</th>
+                          <th>Price</th>
+                          <th>Status</th>
                       </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="hidden">
-                        <td>#2540</td>
-                        <td class="customer">Rowena Rice</td>
-                        <td>31st July 2020</td>
-                        <td class="price">&euro;62.00</td>
-                        <td><p id="pending">Pending</p></td>
+                      <tr>
+                          <td>#2540</td>
+                          <td>Rowena Rice</td>
+                          <td>31 July 2020</td>
+                          <td>&euro;62.00</td>
+                          <td id="pending"><p>Pending</p></td>
                       </tr>
-                    </tbody>
                   </table>
-                  <div id="sideMenu">
-                    <div id="action">
-                      <div>Action</div>
-                      <i class="fa fa-gear"></i>
-                    </div>
-                    <div id="caret-up"><i class="fa fa-caret-up"></i></div>
+                  <div id="same-icon1">
+                      <div style="display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;">
+                          <div style="margin-bottom: 15px;" id="act">Action</div>
+                          <div><i class="fa fa-gear"></i></div>
+                      </div>
+                      <div style="display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;">
+                          <i style="margin-bottom: 15px;" class="fa fa-caret-up"></i>
+                          <div style="visibility: hidden;">hello</div>
+                      </div>
                   </div>
-                </section>
-                <p class="table_header">Orders Detail</p>
-                <section class="main_table">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Sn</th>
-                        <th class="ProductName">Product Name</th>
-                        <th>Quantity</th>
-                        <th>Price</th>
-                        <th>Total Price</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="tableDetail">
-                        <td>1.</td>
-                        <td class="ProductName">Cheese Stack</td>
-                        <td>1 pic</td>
-                        <td>&euro;2.00</td>
-                        <td>&euro;2.00</td>
-                      </tr>
-                      <tr class="tableDetail">
-                        <td>2.</td>
-                        <td class="ProductName">Greek Style Salad</td>
-                        <td>2 pic</td>
-                        <td>&euro;4.00</td>
-                        <td>&euro;8.00</td>
-                      </tr>
-                      <tr class="tableDetail">
-                        <td>3.</td>
-                        <td class="ProductName">
-                          30 Chicken Salad & Peanut Dip
-                        </td>
-                        <td>3 pic</td>
-                        <td>&euro;11.00</td>
-                        <td>&euro;33.00</td>
-                      </tr>
-                      <tr class="tableDetail">
-                        <td>4.</td>
-                        <td class="ProductName">Wrap Platter</td>
-                        <td>1 pic</td>
-                        <td>&euro;15.00</td>
-                        <td>&euro;15.00</td>
-                      </tr>
-                      <tr class="tableDetail">
-                        <td>5.</td>
-                        <td class="ProductName">Moroccan style couscous</td>
-                        <td>2 pic</td>
-                        <td>&euro;3.00</td>
-                        <td>&euro;6.00</td>
-                      </tr>
-                      <tr>
-                        <td></td>
-                        <td class="ProductName">Total Price</td>
-                        <td></td>
-                        <td></td>
-                        <td>&euro;62.00</td>
-                      </tr>
-                      <tr class="orderConfirmation">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td id="button1">
-                          <button id="one">Cancel order</button>
-                        </td>
-                        <td><button id="two">Accept for pickup</button></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </section>
               </div>
-              <div id="foot">
-    
-                <section class="tableDetail-top">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th class="tableHead" style="font-weight:normal">#2541</th>
-                        <th class="tableHead" style="font-weight:normal;text-wrap: nowrap;">Harrison Saratt</th>
-                        <th class="tableHead"style="font-weight:normal">31st July 2020</th>
-                        <th class="tableHead"style="font-weight:normal">&euro;116.00</th>
-                        <th class="tableHead"style="font-weight:normal" id="pending">Pending</th>
-                      </tr>
-                    </thead>
-                    <tbody style="visibility: hidden;">
-                      <tr class="hidden">
-                        <td>#2540</td>
-                        <td class="customer">Rowena Rice</td>
-                        <td>31st July 2020</td>
-                        <td class="price">&euro;62.00</td>
-                        <td><p id="pending">Pending</p></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <div id="sideMenu">
-                    <div id="action">
-                      <i class="fa fa-gear"></i>
-                      <div style="visibility: hidden;">Action</div>
-                    </div>
-                    <div id="caret-up"><i class="fa fa-caret-up"></i></div>
-                  </div>
-                </section>
+      
               
-            </section>
-          </div>
-            </div>
+              <div class="main-table">
+                  <p class="order-detail">Order Details</p>
+                  <div style="padding: 20px; display: flex;">
+                  <table>
+                      <thead>
+                          <tr>
+                              <th>Sn</th>
+                              <th class="ProductName">Product Name</th>
+                              <th>Quantity</th>
+                              <th>Price</th>
+                              <th>Total Price</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr class="tableDetail">
+                              <td>1.</td>
+                              <td class="ProductName">Cheese Stack</td>
+                              <td>1 pic</td>
+                              <td>&euro;2.00</td>
+                              <td>&euro;2.00</td>
+                          </tr>
+                          <tr class="tableDetail">
+                              <td>2.</td>
+                              <td class="ProductName">Greek Style Salad</td>
+                              <td>2 pic</td>
+                              <td>&euro;4.00</td>
+                              <td>&euro;8.00</td>
+                          </tr>
+                          <tr class="tableDetail">
+                              <td>3.</td>
+                              <td class="ProductName">30 Chicken Salad & Peanut Dip</td>
+                              <td>3 pic</td>
+                              <td>&euro;11.00</td>
+                              <td>&euro;33.00</td>
+                          </tr>
+                          <tr class="tableDetail">
+                              <td>4.</td>
+                              <td class="ProductName">Wrap Platter</td>
+                              <td>1 pic</td>
+                              <td>&euro;15.00</td>
+                              <td>&euro;15.00</td>
+                          </tr>
+                          <tr class="tableDetail">
+                              <td>5.</td>
+                              <td class="ProductName">Moroccan Style Couscous</td>
+                              <td>2 pic</td>
+                              <td>&euro;3.00</td>
+                              <td>&euro;6.00</td>
+                          </tr>
+                          <tr>
+                              <td></td>
+                              <td class="ProductName">Total Price</td>
+                              <td></td>
+                              <td></td>
+                              <td>&euro;62.00</td>
+                          </tr>
+                          <tr class="orderConfirmation">
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td>
+                                  <button>Cancel Order</button>
+                              </td>
+                              <td>
+                                  <button>Accept for Pickup</button>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              </div>
+      
+              <div id="two">
+                  <table class="same-table">
+                      <tr>
+                          <td>#2541</td>
+                          <td>Harrison Saratt</td>
+                          <td>31 July 2020</td>
+                          <td>&euro;116.00</td>
+                          <td id="pending"><p>Pending</p></td>
+                      </tr>
+                  </table>
+                  <div id="same-icon">
+                      <div><i class="fa fa-gear"></i></div>
+                      <div><i class="fa fa-caret-down"></i></div>
+                  </div>
+              </div>
+          </section>
+            
+      
           </div>
         </div>
       </div>
