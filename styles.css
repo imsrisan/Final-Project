@@ -760,13 +760,11 @@ input[type="text"] {
 
 
 
+
     .hidden td{
-        
-        text-wrap: nowrap;
-
-        
+    
+        text-wrap: nowrap;   
     }
-
 
 }
 
@@ -777,6 +775,11 @@ input[type="text"] {
 
     *{
         font-size: 20px;
+    }
+
+    
+    #logo *{
+        font-size: 25px;
     }
 
     
